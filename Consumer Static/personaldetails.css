@@ -1,0 +1,253 @@
+body {
+
+    width:100vw;
+    height:100vh;
+    margin:0;
+    background-color:#262623;
+    overflow: hidden;
+}
+
+* {
+    
+    font-family: 'Barlow', sans-serif;              
+
+}
+
+.club {
+
+    top:0;
+    left:0;
+    position:absolute;
+    width:15%;
+    height:auto;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    z-index:3;
+
+}
+
+.club img {
+
+    height:100px;
+    width:160px;
+
+}
+
+.flex {
+
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex1 {
+
+    position:relative;
+    height:25%;
+    z-index: 2;
+    width: auto;
+
+}
+
+.logo {
+
+    top:0;
+    position:fixed;
+    display: flex;
+    height:24%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+    background-color: #262623;
+
+}
+
+.box {
+
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:30px;
+
+}
+
+.nombresapellidos {
+
+    width:42%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.correoelectronico {
+
+    width:46%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.repetir {
+
+    width:50%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.genero {
+
+    width:54%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.edad {
+
+    width:58%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+label {
+
+    padding:10px 0;
+    font-size: 20px;
+    color: white;
+
+}
+
+.nombresapellidos input {
+
+    box-shadow: 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF;
+    background-color:#F0D791 ;
+}
+
+.correoelectronico input {
+
+    box-shadow: 0 0 10px #FBF5E2, 0 0 10px #FBF5E2, 0 0 10px #FBF5E2, 0 0 10px #FBF5E2;
+    background-color:#F4E1AE ;
+
+}
+
+.repetir input {
+
+    box-shadow: 0 0 10px #E3D6A4, 0 0 10px #E3D6A4, 0 0 10px #E3D6A4, 0 0 10px #E3D6A4;
+    background-color:#F7EBC9;
+
+}
+
+.genero select {
+
+    box-shadow: 0 0 10px #F4E1AE, 0 0 10px #F4E1AE, 0 0 10px #F4E1AE, 0 0 10px #F4E1AE;
+    background-color:#FBF5E2 ;
+
+}
+
+.edad select {
+
+    box-shadow: 0 0 10px #F0D791, 0 0 10px #F0D791, 0 0 10px #F0D791, 0 0 10px #F0D791;
+    background-color:#FFFFFF;
+
+}
+
+
+input {
+
+    border-radius: 20px;
+    color:#262623;
+    font-size: 24px;
+    transition: 0.2s;
+    border:1px solid black;
+    padding-left:20px;
+    outline-color: #262623;
+
+}
+
+
+select {
+
+    border-radius: 20px;
+    color:#262623;
+    font-size: 24px;
+    transition: 0.2s;
+    border:1px solid black;
+    outline-color: #262623;
+    padding-left:20px;
+
+}
+
+.flex2 {
+
+    padding-top:12%;
+    position:relative;
+    height:auto;
+    width:100%;
+    overflow: hidden;
+
+}
+
+.continuar {
+
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.continuar button {
+
+    background-color: white;
+    border-radius: 10px;
+    width: 200px; 
+    height: 60px;
+    font-size: 23px; 
+    transition: 0.2s;
+
+}
+
+.continuar button:hover {
+
+    transition: 0.2s;
+    background-color: rgb(201, 177, 73);
+
+}
+
+.continuar button a {
+
+    color:#262623;
+    text-decoration: none;
+
+}
+
+#preloader {
+
+    background: #262623;
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index:100;
+
+}
